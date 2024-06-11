@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B3D95812C188A8B004A55F7 /* StrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3D95802C188A8B004A55F7 /* StrokeView.swift */; };
 		8B874FD32C0DE79D00A45C7C /* DuckVpnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FD22C0DE79D00A45C7C /* DuckVpnApp.swift */; };
-		8B874FD52C0DE79D00A45C7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FD42C0DE79D00A45C7C /* ContentView.swift */; };
 		8B874FD72C0DE79F00A45C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B874FD62C0DE79F00A45C7C /* Assets.xcassets */; };
 		8B874FDA2C0DE79F00A45C7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B874FD92C0DE79F00A45C7C /* Preview Assets.xcassets */; };
+		8B874FE32C0DE92800A45C7C /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FE22C0DE92800A45C7C /* ConnectView.swift */; };
+		8B874FE52C0DECD800A45C7C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FE42C0DECD800A45C7C /* HomeView.swift */; };
+		8B874FE72C0DECE500A45C7C /* BuyNFTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FE62C0DECE500A45C7C /* BuyNFTView.swift */; };
+		8B874FE92C0DECF700A45C7C /* ServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FE82C0DECF700A45C7C /* ServersView.swift */; };
+		8B874FEB2C0EE1C500A45C7C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FEA2C0EE1C500A45C7C /* BackgroundView.swift */; };
+		8B874FED2C0EE1FF00A45C7C /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FEC2C0EE1FF00A45C7C /* ConnectButton.swift */; };
+		8B874FEF2C0EE32000A45C7C /* EachServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FEE2C0EE32000A45C7C /* EachServerView.swift */; };
+		8B874FF32C0EE3FB00A45C7C /* ProfileRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FF22C0EE3FB00A45C7C /* ProfileRectangle.swift */; };
+		8BCAD21A2C108F0400542F0A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCAD2192C108F0400542F0A /* Lottie */; };
+		8BF6B6262C0F122A0081EC1B /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6B6252C0F122A0081EC1B /* FunctionForResize.swift */; };
+		8BF6B6282C0F18DD0081EC1B /* GroupServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6B6272C0F18DD0081EC1B /* GroupServersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B3D95802C188A8B004A55F7 /* StrokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeView.swift; sourceTree = "<group>"; };
 		8B874FCF2C0DE79D00A45C7C /* DuckVpn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckVpn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B874FD22C0DE79D00A45C7C /* DuckVpnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckVpnApp.swift; sourceTree = "<group>"; };
-		8B874FD42C0DE79D00A45C7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B874FD62C0DE79F00A45C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B874FD92C0DE79F00A45C7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B874FE22C0DE92800A45C7C /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		8B874FE42C0DECD800A45C7C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8B874FE62C0DECE500A45C7C /* BuyNFTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyNFTView.swift; sourceTree = "<group>"; };
+		8B874FE82C0DECF700A45C7C /* ServersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersView.swift; sourceTree = "<group>"; };
+		8B874FEA2C0EE1C500A45C7C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		8B874FEC2C0EE1FF00A45C7C /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		8B874FEE2C0EE32000A45C7C /* EachServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachServerView.swift; sourceTree = "<group>"; };
+		8B874FF22C0EE3FB00A45C7C /* ProfileRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRectangle.swift; sourceTree = "<group>"; };
+		8BF6B6252C0F122A0081EC1B /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
+		8BF6B6272C0F18DD0081EC1B /* GroupServersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupServersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCAD21A2C108F0400542F0A /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +73,11 @@
 		8B874FD12C0DE79D00A45C7C /* DuckVpn */ = {
 			isa = PBXGroup;
 			children = (
+				8BCAD21B2C10915C00542F0A /* Fonts */,
+				8B874FE12C0DE7C300A45C7C /* Views */,
+				8B874FE02C0DE7BA00A45C7C /* Models */,
 				8B874FD22C0DE79D00A45C7C /* DuckVpnApp.swift */,
-				8B874FD42C0DE79D00A45C7C /* ContentView.swift */,
+				8BF6B6252C0F122A0081EC1B /* FunctionForResize.swift */,
 				8B874FD62C0DE79F00A45C7C /* Assets.xcassets */,
 				8B874FD82C0DE79F00A45C7C /* Preview Content */,
 			);
@@ -65,6 +90,37 @@
 				8B874FD92C0DE79F00A45C7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B874FE02C0DE7BA00A45C7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B874FE12C0DE7C300A45C7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B874FE22C0DE92800A45C7C /* ConnectView.swift */,
+				8B874FEA2C0EE1C500A45C7C /* BackgroundView.swift */,
+				8B874FE42C0DECD800A45C7C /* HomeView.swift */,
+				8B874FE62C0DECE500A45C7C /* BuyNFTView.swift */,
+				8B874FEC2C0EE1FF00A45C7C /* ConnectButton.swift */,
+				8B3D95802C188A8B004A55F7 /* StrokeView.swift */,
+				8B874FE82C0DECF700A45C7C /* ServersView.swift */,
+				8B874FEE2C0EE32000A45C7C /* EachServerView.swift */,
+				8BF6B6272C0F18DD0081EC1B /* GroupServersView.swift */,
+				8B874FF22C0EE3FB00A45C7C /* ProfileRectangle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BCAD21B2C10915C00542F0A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +139,9 @@
 			dependencies = (
 			);
 			name = DuckVpn;
+			packageProductDependencies = (
+				8BCAD2192C108F0400542F0A /* Lottie */,
+			);
 			productName = DuckVpn;
 			productReference = 8B874FCF2C0DE79D00A45C7C /* DuckVpn.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,9 @@
 				Base,
 			);
 			mainGroup = 8B874FC62C0DE79D00A45C7C;
+			packageReferences = (
+				8BCAD2182C108F0400542F0A /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 8B874FD02C0DE79D00A45C7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B874FD52C0DE79D00A45C7C /* ContentView.swift in Sources */,
+				8B874FE32C0DE92800A45C7C /* ConnectView.swift in Sources */,
+				8B874FF32C0EE3FB00A45C7C /* ProfileRectangle.swift in Sources */,
+				8B874FE52C0DECD800A45C7C /* HomeView.swift in Sources */,
+				8BF6B6282C0F18DD0081EC1B /* GroupServersView.swift in Sources */,
+				8B874FEF2C0EE32000A45C7C /* EachServerView.swift in Sources */,
+				8B874FEB2C0EE1C500A45C7C /* BackgroundView.swift in Sources */,
+				8B3D95812C188A8B004A55F7 /* StrokeView.swift in Sources */,
+				8BF6B6262C0F122A0081EC1B /* FunctionForResize.swift in Sources */,
+				8B874FED2C0EE1FF00A45C7C /* ConnectButton.swift in Sources */,
+				8B874FE72C0DECE500A45C7C /* BuyNFTView.swift in Sources */,
 				8B874FD32C0DE79D00A45C7C /* DuckVpnApp.swift in Sources */,
+				8B874FE92C0DECF700A45C7C /* ServersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -270,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"DuckVpn/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
@@ -278,8 +350,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +360,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oleg-Yakushin.DuckVpn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"DuckVpn/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
@@ -307,8 +384,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +394,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oleg-Yakushin.DuckVpn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BCAD2182C108F0400542F0A /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BCAD2192C108F0400542F0A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BCAD2182C108F0400542F0A /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B874FC72C0DE79D00A45C7C /* Project object */;
 }
