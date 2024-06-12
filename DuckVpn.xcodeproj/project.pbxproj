@@ -19,6 +19,8 @@
 		8B874FED2C0EE1FF00A45C7C /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FEC2C0EE1FF00A45C7C /* ConnectButton.swift */; };
 		8B874FEF2C0EE32000A45C7C /* EachServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FEE2C0EE32000A45C7C /* EachServerView.swift */; };
 		8B874FF32C0EE3FB00A45C7C /* ProfileRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874FF22C0EE3FB00A45C7C /* ProfileRectangle.swift */; };
+		8BAED9762C19B08100C4AEE4 /* DisconnectOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAED9752C19B08100C4AEE4 /* DisconnectOverlay.swift */; };
+		8BAED9782C19B09600C4AEE4 /* DisconnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAED9772C19B09600C4AEE4 /* DisconnectButton.swift */; };
 		8BCAD21A2C108F0400542F0A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCAD2192C108F0400542F0A /* Lottie */; };
 		8BF6B6262C0F122A0081EC1B /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6B6252C0F122A0081EC1B /* FunctionForResize.swift */; };
 		8BF6B6282C0F18DD0081EC1B /* GroupServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6B6272C0F18DD0081EC1B /* GroupServersView.swift */; };
@@ -38,6 +40,8 @@
 		8B874FEC2C0EE1FF00A45C7C /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
 		8B874FEE2C0EE32000A45C7C /* EachServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachServerView.swift; sourceTree = "<group>"; };
 		8B874FF22C0EE3FB00A45C7C /* ProfileRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRectangle.swift; sourceTree = "<group>"; };
+		8BAED9752C19B08100C4AEE4 /* DisconnectOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectOverlay.swift; sourceTree = "<group>"; };
+		8BAED9772C19B09600C4AEE4 /* DisconnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectButton.swift; sourceTree = "<group>"; };
 		8BF6B6252C0F122A0081EC1B /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
 		8BF6B6272C0F18DD0081EC1B /* GroupServersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupServersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +115,9 @@
 				8B874FE82C0DECF700A45C7C /* ServersView.swift */,
 				8B874FEE2C0EE32000A45C7C /* EachServerView.swift */,
 				8BF6B6272C0F18DD0081EC1B /* GroupServersView.swift */,
+				8BAED9772C19B09600C4AEE4 /* DisconnectButton.swift */,
 				8B874FF22C0EE3FB00A45C7C /* ProfileRectangle.swift */,
+				8BAED9752C19B08100C4AEE4 /* DisconnectOverlay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,8 +214,10 @@
 				8B3D95812C188A8B004A55F7 /* StrokeView.swift in Sources */,
 				8BF6B6262C0F122A0081EC1B /* FunctionForResize.swift in Sources */,
 				8B874FED2C0EE1FF00A45C7C /* ConnectButton.swift in Sources */,
+				8BAED9782C19B09600C4AEE4 /* DisconnectButton.swift in Sources */,
 				8B874FE72C0DECE500A45C7C /* BuyNFTView.swift in Sources */,
 				8B874FD32C0DE79D00A45C7C /* DuckVpnApp.swift in Sources */,
+				8BAED9762C19B08100C4AEE4 /* DisconnectOverlay.swift in Sources */,
 				8B874FE92C0DECF700A45C7C /* ServersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"DuckVpn/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
@@ -376,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"DuckVpn/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;

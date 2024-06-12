@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ServersView: View {
+    @AppStorage("server") private var server: String = "Ukraine"
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
         ZStack {
@@ -36,19 +37,15 @@ struct ServersView: View {
                         .font(.system(size: 20 * sizeScreen(), weight: .bold))
                         .foregroundColor(.black)
                     
-                    GroupServersView(country1: "Japan", country2: "China", country3: "Thailand")
-                        .onTapGesture {
-                            presentationMode.wrappedValue.dismiss()
-                        }
+                    GroupServersView(country1: "Japan", country2: "China", country3: "Thailand", server: $server, back: {presentationMode.wrappedValue.dismiss()})
+                      
                 }
                 VStack(alignment: .leading) {
                     Text("Europe")
                         .font(.system(size: 20 * sizeScreen(), weight: .bold))
                         .foregroundColor(.black)
-                    GroupServersView(country1: "Ukraine", country2: "France", country3: "Italy")
-                        .onTapGesture {
-                            presentationMode.wrappedValue.dismiss()
-                        }
+                    GroupServersView(country1: "Ukraine", country2: "France", country3: "Italy", server: $server, back: {presentationMode.wrappedValue.dismiss()})
+                       
                 }
                 Spacer()
             }

@@ -26,6 +26,7 @@ struct BuyNFTView: View {
                 }
             }
             .padding()
+            .padding(.top, -20)
             HStack {
                 VStack(alignment: .leading, spacing: 10 * sizeScreen()) {
                     Text("Get all fuatures of DUCK vpn")
@@ -48,8 +49,13 @@ struct BuyNFTView: View {
                             .frame(width: 150 * sizeScreen(), height: 150 * sizeScreen())
                     )
                     .padding(.vertical, 30 * sizeScreen())
-                ConnectButton(text: "Buy NFT")
+                Link(destination: URL(string: "https://getgems.io")!) {
+                                       ConnectButton(text: "Buy NFT")
+                                   }
                 StrokeView(text: "Use NFT")
+                    .onTapGesture {
+                        showBuyNFTView.toggle()
+                    }
             }
            
         }

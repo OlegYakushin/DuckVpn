@@ -28,14 +28,15 @@ struct ConnectView: View {
                         ConnectButton()
                     }
                     
-                    Text("I don’t have a ")
-                        .font(.system(size: 16 * scale, weight: .medium))
-                        .foregroundColor(.black)
+                    HStack(spacing: 0) {
+                                           Text("I don’t have a ")
+                                               .font(.system(size: 16 * scale, weight: .medium))
+                                               .foregroundColor(.black)
 
-                    +
-                    Text("TON wallet")
-                        .font(.system(size: 16 * scale, weight: .medium))
-                        .foregroundColor(.blue)
+                                           Link("TON wallet", destination: URL(string: "https://wallet.ton.org")!)
+                                               .font(.system(size: 16 * scale, weight: .medium))
+                                               .foregroundColor(.blue)
+                                       }
                 }
                 .padding(.bottom, 50 * scale)
             }

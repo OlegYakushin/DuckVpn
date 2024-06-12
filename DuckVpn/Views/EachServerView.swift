@@ -22,6 +22,7 @@ struct EachServerView: View {
                         .bold()
                     Spacer()
                     Image("arrowPng")
+                        .frame(width: 20 * sizeScreen(), height: 20 * sizeScreen())
                 }
                     .padding()
             )

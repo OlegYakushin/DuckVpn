@@ -9,7 +9,9 @@ import SwiftUI
 import Lottie
 
 struct HomeView: View {
+    @AppStorage("server") private var server: String = "Ukraine"
     @State private var showBuyNFTView = false
+    @State private var showDisconnectView = false
     var body: some View {
         ZStack{
             BackgroundView()
@@ -22,10 +24,13 @@ struct HomeView: View {
                 Spacer()
                 
                 NavigationLink(destination: ServersView().navigationBarBackButtonHidden()) {
-                    EachServerView(country: "Ukraine")
+                    EachServerView(country: server)
                 }
                 
                 ConnectButton()
+                    .onTapGesture {
+                        showDisconnectView.toggle()
+                                          }
                 Spacer()
                 VStack(spacing: 10 * sizeScreen()) {
                     Text("Subscription ends on May 30th.")
@@ -46,6 +51,11 @@ struct HomeView: View {
         .sheet(isPresented: $showBuyNFTView) {
             BuyNFTView(showBuyNFTView: $showBuyNFTView)
                 .presentationDetents([.fraction(3 / 4)])
+               
+                }
+        .sheet(isPresented: $showDisconnectView) {
+            DisconnectOverlay(showDisconnectView: $showDisconnectView)
+                .presentationDetents([.fraction(1 / 5)])
                
                 }
       
