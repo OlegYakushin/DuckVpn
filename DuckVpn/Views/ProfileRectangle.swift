@@ -10,6 +10,7 @@ import SwiftUI
 struct ProfileRectangle: View {
     var name: String
     var wallet: String
+    let settings: () -> Void
     var body: some View {
         RoundedRectangle(cornerRadius: 20 * sizeScreen())
             .frame(width: 343 * sizeScreen(), height: 71 * sizeScreen())
@@ -35,6 +36,9 @@ struct ProfileRectangle: View {
                     Spacer()
                     Image("settingsPng")
                         .frame(width: 24 * sizeScreen(), height: 24 * sizeScreen())
+                        .onTapGesture {
+                            settings()
+                        }
                 }
                     .padding()
             )
@@ -42,5 +46,5 @@ struct ProfileRectangle: View {
 }
 
 #Preview {
-    ProfileRectangle(name: "Arina", wallet: "0QB8-Bq-9cFs")
+    ProfileRectangle(name: "Arina", wallet: "0QB8-Bq-9cFs", settings: {})
 }

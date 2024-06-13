@@ -40,7 +40,9 @@ struct ConnectView: View {
                 }
                 .padding(.bottom, 50 * scale)
             }
+            
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
