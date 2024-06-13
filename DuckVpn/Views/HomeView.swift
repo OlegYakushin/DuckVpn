@@ -13,6 +13,7 @@ struct HomeView: View {
     @State private var showBuyNFTView = false
     @State private var showDisconnectView = false
     @State private var isConnected = false
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
         ZStack{
             BackgroundView()
@@ -75,7 +76,7 @@ struct HomeView: View {
                
                 }
         .sheet(isPresented: $showDisconnectView) {
-            DisconnectOverlay(showDisconnectView: $showDisconnectView)
+            DisconnectOverlay(showDisconnectView: $showDisconnectView, back: {presentationMode.wrappedValue.dismiss()})
                 .presentationDetents([.fraction(1 / 5)])
                
                 }

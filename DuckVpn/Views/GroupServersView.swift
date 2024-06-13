@@ -28,10 +28,12 @@ struct GroupServersView: View {
                         Image(country1 == server ? "dottPng" : "arrowPng")
                             .frame(width: 20 * sizeScreen(), height: 20 * sizeScreen())
                     }
+                    .background(.white)
                     .onTapGesture {
                         server = country1
                         back()
                     }
+                   
                     .padding()
                     Divider()
                     HStack {
@@ -43,6 +45,7 @@ struct GroupServersView: View {
                         Image(country2 == server ? "dottPng" : "arrowPng")
                             .frame(width: 20 * sizeScreen(), height: 20 * sizeScreen())
                     }
+                    .background(.white)
                     .onTapGesture {
                         server = country2
                         back()
@@ -58,6 +61,7 @@ struct GroupServersView: View {
                         Image(country3 == server ? "dottPng" : "arrowPng")
                             .frame(width: 20 * sizeScreen(), height: 20 * sizeScreen())
                     }
+                    .background(.white)
                     .onTapGesture {
                         server = country3
                         back()

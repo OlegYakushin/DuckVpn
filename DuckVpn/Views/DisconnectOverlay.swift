@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DisconnectOverlay: View {
     @Binding var showDisconnectView: Bool
+    let back: () -> Void
      var body: some View {
          VStack {
              ZStack {
@@ -27,6 +28,7 @@ struct DisconnectOverlay: View {
              DisconnectButton()
                  .onTapGesture {
                      showDisconnectView.toggle()
+                     back()
                  }
              Spacer()
          }
@@ -34,5 +36,5 @@ struct DisconnectOverlay: View {
  }
 
 #Preview {
-    DisconnectOverlay(showDisconnectView: .constant(false))
+    DisconnectOverlay(showDisconnectView: .constant(false), back: {})
 }
