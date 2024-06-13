@@ -83,6 +83,14 @@ struct ServersView: View {
             .offset(y: -keyboardOffset)
             .animation(.easeOut(duration: 0.16), value: keyboardOffset)
         }
+        .gesture(
+                  DragGesture()
+                      .onEnded { gesture in
+                          if gesture.translation.width > 100 {
+                              presentationMode.wrappedValue.dismiss()
+                          }
+                      }
+              )
     }
     
 

@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct DuckVpnApp: App {
-    init() {
-            UITraitCollection.current = UITraitCollection(userInterfaceStyle: .light)
-        }
     var body: some Scene {
         WindowGroup {
             ConnectView()
+                .preferredColorScheme(.light)
         }
     }
 }

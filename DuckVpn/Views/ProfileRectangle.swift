@@ -11,6 +11,8 @@ struct ProfileRectangle: View {
     var name: String
     var wallet: String
     let settings: () -> Void
+    let onCopy: () -> Void 
+    
     var body: some View {
         RoundedRectangle(cornerRadius: 20 * sizeScreen())
             .frame(width: 343 * sizeScreen(), height: 71 * sizeScreen())
@@ -29,8 +31,9 @@ struct ProfileRectangle: View {
                             Image("copyPng")
                                 .frame(width: 15 * sizeScreen(), height: 15 * sizeScreen())
                                 .onTapGesture {
-                                                UIPasteboard.general.string = wallet
-                                                               }
+                                    UIPasteboard.general.string = wallet
+                                    onCopy() // вызов замыкания при нажатии
+                                }
                         }
                     }
                     Spacer()
@@ -40,11 +43,11 @@ struct ProfileRectangle: View {
                             settings()
                         }
                 }
-                    .padding()
+                .padding()
             )
     }
 }
 
 #Preview {
-    ProfileRectangle(name: "Arina", wallet: "0QB8-Bq-9cFs", settings: {})
+    ProfileRectangle(name: "Arina", wallet: "0QB8-Bq-9cFs", settings: {}, onCopy: {})
 }
